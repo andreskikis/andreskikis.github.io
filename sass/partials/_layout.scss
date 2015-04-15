@@ -1,0 +1,19 @@
+@function calc-em($target-px, $context) {
+  @return ($target-px / $context) * 1em;
+}
+
+#content{
+	width: 1080px;
+	max-width: 90% ;
+	margin: 0 auto;
+}
+
+.row {
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+
+.project-balcony {
+	margin-top: 10% ;
+	margin-bottom: 10% ;
+}
