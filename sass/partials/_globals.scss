@@ -18,6 +18,8 @@ body {
 	background: $lowlight;
 	color: $light;
 	font: 100% $font-stack;
+	max-width: 1280px;
+	width: 100% ;
 }
 
 html {
@@ -99,6 +101,7 @@ ol {
 
 .about-items{
 	text-align: center;
+	font-size: medium;
 }
 
 .bar-footer-item {
