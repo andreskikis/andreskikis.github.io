@@ -1,0 +1,30 @@
+// lista de navegacion
+
+.nav-icons-links {
+	display: inline-block;
+	margin: 3% ;
+}
+
+.navigator-list {
+	list-style: none;
+	text-align: center;
+}
+
+// anchor style html tag
+
+.navigator-list a {
+	color: $light;
+}
+
+// list style html tag 
+
+.navigator-list li {
+	background: $lowlight;
+	border: 2px solid $orange;
+	padding: 2% ;
+}
+
+.navigator-list li:hover {
+	background-color: $orange;
+	border: 2px solid $light;
+}

@@ -15,8 +15,8 @@ body {
   background: #373B44;
   color: #DEE1B6;
   font: 100% Raleway, sans-serif;
-  max-width: 1280px;
-  width: 100%; }
+  margin: 0 auto;
+  max-width: 1280px; }
 
 html {
   box-sizing: border-box;
@@ -68,46 +68,18 @@ ul {
 ol {
   display: -webkit-inline-box; }
 
-.about-items {
-  text-align: center;
-  font-size: medium; }
+#content {
+  width: 1080px;
+  max-width: 90%;
+  margin: 0 auto; }
 
-.bar-footer-item {
-  background: #BD5532;
-  display: inline-block;
-  position: relative;
-  width: 100%; }
+.row {
+  overflow: hidden;
+  margin-bottom: 40px; }
 
-.contact-items {
-  color: #DEE1B6;
-  display: -webkit-box;
-  list-style: none; }
-
-.experience-item {
-  width: 50%; }
-
-.experience-galery-bar {
-  display: inline-block;
-  list-style: none; }
-
-.form-columns {
-  display: inline-block;
-  float: left;
-  padding: 10px 15px;
-  width: 100%; }
-
-.form-items {
-  margin-top: 5%; }
-
-.input-contact {
-  background: #FAFAFA;
-  border: none;
-  color: #373B44;
-  display: block;
-  height: 40px;
-  margin-bottom: 15px;
-  padding-left: 8px;
-  width: 100%; }
+.project-balcony {
+  margin-top: 10%;
+  margin-bottom: 10%; }
 
 .nav-icons-links {
   display: inline-block;
@@ -128,6 +100,46 @@ ol {
 .navigator-list li:hover {
   background-color: #BD5532;
   border: 2px solid #DEE1B6; }
+
+.about-items {
+  text-align: center;
+  font-size: medium; }
+
+.bar-footer-item {
+  background: #BD5532;
+  display: inline-block;
+  position: relative;
+  width: 100%; }
+
+.contact-items {
+  color: #DEE1B6;
+  display: -webkit-box;
+  list-style: none; }
+
+.experience-item {
+  width: 100%; }
+
+.experience-galery-bar {
+  display: inline-flex; }
+
+.form-columns {
+  display: inline-block;
+  float: left;
+  padding: 10px 15px;
+  width: 100%; }
+
+.form-items {
+  margin-top: 5%; }
+
+.input-contact {
+  background: #FAFAFA;
+  border: none;
+  color: #373B44;
+  display: block;
+  height: 40px;
+  margin-bottom: 15px;
+  padding-left: 8px;
+  width: 100%; }
 
 .project-columns {
   border: 1px solid #BD5532;
@@ -178,18 +190,5 @@ ol {
   resize: none;
   padding: 8px 10px;
   width: 100%; }
-
-#content {
-  width: 1080px;
-  max-width: 90%;
-  margin: 0 auto; }
-
-.row {
-  overflow: hidden;
-  margin-bottom: 40px; }
-
-.project-balcony {
-  margin-top: 10%;
-  margin-bottom: 10%; }
 
 /*# sourceMappingURL=styles.css.map */
