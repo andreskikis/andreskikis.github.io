@@ -22,12 +22,12 @@
 					<div class="form-items">
 						<div class="row">
 							<div class="form-columns">
-								<form class="form-contact">
+								<form name="myForm" class="form-contact" action="demo_form.asp" onsubmit="return validateForm()" method="post">
 									<input type="text" id="name" class="input-contact" name="name" value="" placeholder="Nombre y apellido" />
 									<input type="tel" id="telephone" class="input-contact" name="telephone" value="" placeholder="Número de telefono" />
 									<input type="email" id="email" class="input-contact" name="email" value="" placeholder="Correo electronico" />
 									<textarea class="text-contact" placeholder="Escribe tu mensaje..."></textarea>
-									<input type="submit" class="submit-delivery" value="Contactar" />
+									<input type="button" class="submit-delivery" value="Contactar" />
 								</form>
 							</div>
 							<div class="form-columns">
@@ -49,4 +49,5 @@
 			</footer>
 		</main>
 	</body>
+	<script type="text/javascript" src="js/main.js"></script>
 </html>
